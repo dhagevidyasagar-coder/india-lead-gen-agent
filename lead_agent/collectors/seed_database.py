@@ -1,0 +1,297 @@
+"""
+Curated Pan-India seed repository of top coaching centers, academies, and creator institutions.
+Used as an initial bootstrap and daily enrichment source.
+"""
+
+from typing import List, Dict, Any
+
+SEED_INSTITUTES: List[Dict[str, Any]] = [
+    {
+        "business_name": "Motion Education Kota",
+        "category": "NEET & JEE Coaching",
+        "city": "Kota",
+        "state": "Rajasthan",
+        "phone": "9829012345",
+        "email": "info@motion.ac.in",
+        "website": "https://motion.ac.in",
+        "address": "394, Rajeev Gandhi Nagar, Kota, Rajasthan 324005",
+        "description": "Premier classroom & hybrid coaching for IIT-JEE Main, Advanced and NEET aspirants.",
+        "source": "Kota Coaching Registry"
+    },
+    {
+        "business_name": "Sankalp IAS Academy",
+        "category": "UPSC & Civil Services",
+        "city": "Delhi NCR",
+        "state": "Delhi",
+        "phone": "9811223344",
+        "email": "contact@sankalpias.org",
+        "website": "https://sankalpias.org",
+        "address": "Bada Bazar Road, Old Rajinder Nagar, New Delhi 110060",
+        "description": "Foundation courses and test series for UPSC CSE and state PSC examinations.",
+        "source": "Delhi Education Hub"
+    },
+    {
+        "business_name": "Vidya Mandir Classes (VMC) Hub",
+        "category": "NEET & JEE Coaching",
+        "city": "Patna",
+        "state": "Bihar",
+        "phone": "9934112233",
+        "email": "patna@vmcclasses.in",
+        "website": "https://vidyamandir.com",
+        "address": "Boring Road Crossing, Patna, Bihar 800001",
+        "description": "Reputed center for engineering and medical foundation courses in Bihar.",
+        "source": "Patna Coaching Hub"
+    },
+    {
+        "business_name": "Chanakya Mandal Pariwar",
+        "category": "UPSC & State PSC (MPSC)",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "phone": "9822019988",
+        "email": "info@chanakyamandal.org",
+        "website": "https://chanakyamandal.org",
+        "address": "Sadashiv Peth, Pune, Maharashtra 411030",
+        "description": "Leading civil services coaching, leadership development and competitive exams training.",
+        "source": "Pune Education Circle"
+    },
+    {
+        "business_name": "Pragnya IAS Academy",
+        "category": "UPSC & Civil Services",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "phone": "9880482020",
+        "email": "hyderabad@pragnyaias.com",
+        "website": "https://pragnyaias.com",
+        "address": "Ashok Nagar Cross Roads, Hyderabad, Telangana 500020",
+        "description": "Specialized coaching for UPSC Civil Services and TSPSC Group-1 services.",
+        "source": "Hyderabad Hub"
+    },
+    {
+        "business_name": "Matrix Academy Sikar",
+        "category": "NEET & JEE Coaching",
+        "city": "Sikar",
+        "state": "Rajasthan",
+        "phone": "9783621999",
+        "email": "info@matrixedu.in",
+        "website": "https://matrixedu.in",
+        "address": "Piprali Road, Sikar, Rajasthan 332001",
+        "description": "High-growth engineering and medical test prep institute in Sikar.",
+        "source": "Sikar Coaching Hub"
+    },
+    {
+        "business_name": "Drishti Career Point",
+        "category": "SSC & Banking Exam Prep",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "phone": "9414012987",
+        "email": "drishticareer@gmail.com",
+        "website": "https://drishticareerpoint.com",
+        "address": "Gopalpura Bypass, Jaipur, Rajasthan 302018",
+        "description": "Comprehensive classroom batches for SSC CGL, Bank PO, and Railway exams.",
+        "source": "Jaipur Education Zone"
+    },
+    {
+        "business_name": "Pinnacle Trading & Stock Market Academy",
+        "category": "Stock Market & Trading Mentors",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "phone": "9879102345",
+        "email": "support@pinnacletrading.in",
+        "website": "https://pinnacletrading.in",
+        "address": "SG Highway, Bodakdev, Ahmedabad, Gujarat 380054",
+        "description": "Mentorship programs on price action, options trading, and financial market analysis.",
+        "source": "Gujarat FinTech Hub"
+    },
+    {
+        "business_name": "Success Ladder Spoken English & IELTS",
+        "category": "Spoken English & IELTS",
+        "city": "Chandigarh",
+        "state": "Punjab/Haryana",
+        "phone": "9888123999",
+        "email": "info@successladder.co.in",
+        "website": "https://successladder.co.in",
+        "address": "Sector 34-A, Chandigarh 160022",
+        "description": "Band 8+ preparation for IELTS Academic, General and spoken communication skills.",
+        "source": "Chandigarh Hub"
+    },
+    {
+        "business_name": "Target SSC & UP-SI Classes",
+        "category": "SSC & Banking Exam Prep",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "phone": "9450123789",
+        "email": "targetlucknow@yahoo.com",
+        "website": "https://targetlucknow.com",
+        "address": "Alambagh, Lucknow, Uttar Pradesh 226005",
+        "description": "Specialized coaching for UP police, SSC GD, and state level exams.",
+        "source": "Lucknow Coaching Hub"
+    },
+    {
+        "business_name": "Samarpan Career Institute",
+        "category": "NEET & JEE Coaching",
+        "city": "Bhopal",
+        "state": "Madhya Pradesh",
+        "phone": "9826019944",
+        "email": "samarpanbhopal@gmail.com",
+        "website": "https://samarpanbhopal.com",
+        "address": "MP Nagar Zone 2, Bhopal, Madhya Pradesh 462011",
+        "description": "Integrated coaching for 11th, 12th Board & competitive medical examinations.",
+        "source": "MP Central Hub"
+    },
+    {
+        "business_name": "NeetPrep Online Physics Mentor",
+        "category": "Independent Online Educators",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "phone": "9900112288",
+        "email": "physicsbykumar@gmail.com",
+        "website": "https://youtube.com/@physicsexpertindia",
+        "address": "HSR Layout, Bengaluru, Karnataka 560102",
+        "description": "YouTube educator with 80k+ subscribers offering NEET physics problem solving.",
+        "source": "Digital Creator Network"
+    },
+    {
+        "business_name": "Khan Study Group (KSG) Delhi",
+        "category": "UPSC & Civil Services",
+        "city": "Delhi NCR",
+        "state": "Delhi",
+        "phone": "9811293543",
+        "email": "info@ksgindia.com",
+        "website": "https://ksgindia.com",
+        "address": "Mukherjee Nagar, North Delhi 110009",
+        "description": "Top ranked IAS general studies and mentorship academy by Dr. Khan.",
+        "source": "Delhi Education Hub"
+    },
+    {
+        "business_name": "Utkarsh Classes Coaching",
+        "category": "State PSC & Competitive Exams",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "phone": "9772211119",
+        "email": "support@utkarsh.com",
+        "website": "https://utkarsh.com",
+        "address": "Gopalpura Mode, Tonk Road, Jaipur, Rajasthan 302015",
+        "description": "Major offline and digital test prep academy for government jobs and state PSCs.",
+        "source": "Jaipur Coaching Hub"
+    },
+    {
+        "business_name": "Vajiram & Ravi IAS Prep",
+        "category": "UPSC & Civil Services",
+        "city": "Delhi NCR",
+        "state": "Delhi",
+        "phone": "9810574892",
+        "email": "online@vajiramandravi.com",
+        "website": "https://vajiramandravi.com",
+        "address": "Old Rajinder Nagar, New Delhi 110060",
+        "description": "Premier institute for civil services examination since 1976.",
+        "source": "Delhi Education Hub"
+    },
+    {
+        "business_name": "Rao IIT Academy",
+        "category": "NEET & JEE Coaching",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "phone": "9324501234",
+        "email": "pune@raoiit.com",
+        "website": "https://raoiit.com",
+        "address": "JM Road, Shivaji Nagar, Pune, Maharashtra 411005",
+        "description": "Targeted IIT-JEE Advanced and Medical entrance batches.",
+        "source": "Pune Education Circle"
+    },
+    {
+        "business_name": "Catalyzers Institute Kota",
+        "category": "NEET & JEE Coaching",
+        "city": "Kota",
+        "state": "Rajasthan",
+        "phone": "9828114477",
+        "email": "contact@catalyzers.live",
+        "website": "https://catalyzers.live",
+        "address": "Talwandi, Kota, Rajasthan 324005",
+        "description": "Specialized doubt solving and crash courses for JEE & NEET.",
+        "source": "Kota Coaching Registry"
+    },
+    {
+        "business_name": "Lakshya Trading Academy",
+        "category": "Stock Market & Trading Mentors",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "phone": "9826123456",
+        "email": "contact@lakshyatrading.in",
+        "website": "https://lakshyatrading.in",
+        "address": "Vijay Nagar, Indore, Madhya Pradesh 452010",
+        "description": "Price action and futures trading mentorship for retail investors.",
+        "source": "MP Central Hub"
+    },
+    {
+        "business_name": "Kautilya Academy",
+        "category": "UPSC & State PSC (MPPSC)",
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "phone": "9425078901",
+        "email": "info@kautilyaacademy.com",
+        "website": "https://kautilyaacademy.com",
+        "address": "Bhawarkua, Indore, Madhya Pradesh 452001",
+        "description": "Leading civil services academy in Central India with 25+ branches.",
+        "source": "MP Central Hub"
+    },
+    {
+        "business_name": "Ameerpet Tech & Python Bootcamps",
+        "category": "Digital Marketing & Coding Training",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "phone": "9849123456",
+        "email": "contact@ameerpettech.in",
+        "website": "https://ameerpettech.in",
+        "address": "Ameerpet Main Road, Hyderabad, Telangana 500016",
+        "description": "Intensive hands-on IT software development and full-stack coding training.",
+        "source": "Hyderabad Hub"
+    },
+    {
+        "business_name": "Career Launcher Kolkata",
+        "category": "CAT, CLAT & IPMAT Prep",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "phone": "9830123987",
+        "email": "kolkata@careerlauncher.com",
+        "website": "https://careerlauncher.com",
+        "address": "Park Street, Kolkata, West Bengal 700016",
+        "description": "Aptitude training for MBA, Law and undergraduate entrance examinations.",
+        "source": "Kolkata Hub"
+    },
+    {
+        "business_name": "Ignite IAS Academy",
+        "category": "UPSC & Civil Services",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "phone": "7997992479",
+        "email": "info@igniteias.com",
+        "website": "https://igniteias.com",
+        "address": "Kompally, Hyderabad, Telangana 500100",
+        "description": "Integrated Inter/Degree + IAS training for Civil Services aspirants.",
+        "source": "Hyderabad Hub"
+    },
+    {
+        "business_name": "Baluja Institute of Technology",
+        "category": "Digital Marketing & Coding Training",
+        "city": "Delhi NCR",
+        "state": "Delhi",
+        "phone": "9015596280",
+        "email": "info@balujalabs.in",
+        "website": "https://balujalabs.in",
+        "address": "Shakarpur, Laxmi Nagar, Delhi 110092",
+        "description": "Full stack web development, Java and digital marketing certification.",
+        "source": "Delhi Education Hub"
+    },
+    {
+        "business_name": "FinLearn Stock Market Gurukul",
+        "category": "Stock Market & Trading Mentors",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "phone": "9158001122",
+        "email": "connect@finlearngurukul.in",
+        "website": "https://finlearngurukul.in",
+        "address": "FC Road, Deccan Gymkhana, Pune 411004",
+        "description": "Technical analysis, options strategies and live market mentoring sessions.",
+        "source": "Pune Education Circle"
+    }
+]
